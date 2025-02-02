@@ -18,7 +18,7 @@ body {
 section.wrapper {
     width: 90%;
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: 1170px;
 }
 
 @font-face {
@@ -31,8 +31,8 @@ section.wrapper {
 }
 @font-face {
     font-family: "Poppins Medium";
-    src: url("../fonts/fonts/Poppins-Medium.woff2") format("woff2"),
-        url("../fonts/fonts/Poppins-Medium.woff") format("woff");
+    src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
+        url("../fonts/Poppins-Medium.woff") format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -40,8 +40,8 @@ section.wrapper {
 
 @font-face {
     font-family: "Poppins SemiBold";
-    src: url("../fonts/fonts/Poppins-SemiBold.woff2") format("woff2"),
-        url("../fonts/fonts/Poppins-SemiBold.woff") format("woff");
+    src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"),
+        url("../fonts/Poppins-SemiBold.woff") format("woff");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -49,8 +49,8 @@ section.wrapper {
 
 @font-face {
     font-family: "Inter SemiBold";
-    src: url("../fonts/fonts/Inter28pt-SemiBold.woff2") format("woff2"),
-        url("../fonts/fonts/Inter28pt-SemiBold.woff") format("woff");
+    src: url("../fonts/Inter28pt-SemiBold.woff2") format("woff2"),
+        url("../fonts/Inter28pt-SemiBold.woff") format("woff");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -58,8 +58,8 @@ section.wrapper {
 
 @font-face {
     font-family: "Inter Bold";
-    src: url("../fonts/fonts/Inter28pt-Bold.woff2") format("woff2"),
-        url("../fonts/fonts/Inter28pt-Bold.woff") format("woff");
+    src: url("../fonts/Inter28pt-Bold.woff2") format("woff2"),
+        url("../fonts/Inter28pt-Bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -68,20 +68,19 @@ section.wrapper {
 #top-header {
     background-color: #000000;
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: 12px 0 12px 445px;
 }
 #top-header div.wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 859px;
+    justify-content: center;
 }
 #top-header div.wrapper div.shop-now {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 231px;
 }
 #top-header div.wrapper div.shop-now p {
     font-size: 14px;
@@ -109,4 +108,88 @@ section.wrapper {
     font-family: "Poppins";
     color: #fafafa;
     margin-right: 5px;
+}
+
+header {
+    margin-top: 58px;
+}
+header section.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+header section.wrapper div.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header section.wrapper div.left h1.logo {
+    margin-right: 190px;
+}
+header section.wrapper div.left h1.logo a {
+    font-family: "Inter Bold";
+    font-size: 24px;
+    line-height: 24px;
+    color: #000;
+}
+header section.wrapper div.left nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header section.wrapper div.left nav ul li {
+    margin-right: 48px;
+}
+header section.wrapper div.left nav ul li:last-child {
+    margin-right: 0;
+}
+header section.wrapper div.left nav ul li a {
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+header section.wrapper div.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header section.wrapper div.right form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 243px;
+    height: 38px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 7px 12px 7px 20px;
+    margin-right: 24px;
+}
+header section.wrapper div.right form input {
+    font-size: 12px;
+    font-family: "Poppins";
+    line-height: 18px;
+    color: #000;
+    margin-right: 10px;
+    flex: 1;
+}
+header section.wrapper div.right div.user-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header section.wrapper div.right div.user-actions a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+}
+header section.wrapper div.right div.user-actions a:last-child {
+    margin-right: 0;
+}
+header hr.line {
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
 }
