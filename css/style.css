@@ -193,3 +193,55 @@ header section.wrapper div.right div.user-actions a:last-child {
 header hr.line {
     border: 0.5px solid rgba(0, 0, 0, 0.3);
 }
+
+section#offer {
+    margin-top: 40px;
+}
+section#offer section.wrapper {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-left: 71px;
+}
+section#offer div.product-info div.product-name-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+section#offer div.product-info div.product-name-container h2 {
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 24px;
+    color: #fafafa;
+    text-align: center;
+    margin-left: 24px;
+}
+section#offer div.product-info h3 {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 1.92px;
+    color: #fafafa;
+    font-family: "Inter SemiBold";
+    max-width: 294px;
+    margin-bottom: 22px;
+}
+section#offer div.product-info div.shop-now-container {
+    display: flex;
+    align-items: center;
+}
+section#offer div.product-info div.shop-now-container div.shop-now{
+    margin-right: 8px;
+}
+section#offer div.product-info div.shop-now-container div.shop-now a {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Poppins Medium";
+    text-align: center;
+    color: #fafafa;
+}
+section#offer div.product-info div.shop-now-container div.shop-now hr.line {
+    border: 1px solid #fafafa;
+}
