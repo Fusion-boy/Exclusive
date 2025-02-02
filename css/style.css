@@ -10,6 +10,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    list-style: none;
 }
 body {
     overflow-x: hidden;
@@ -25,6 +26,41 @@ section.wrapper {
     src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
         url("../fonts/Poppins-Regular.woff") format("woff");
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Poppins Medium";
+    src: url("../fonts/fonts/Poppins-Medium.woff2") format("woff2"),
+        url("../fonts/fonts/Poppins-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins SemiBold";
+    src: url("../fonts/fonts/Poppins-SemiBold.woff2") format("woff2"),
+        url("../fonts/fonts/Poppins-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter SemiBold";
+    src: url("../fonts/fonts/Inter28pt-SemiBold.woff2") format("woff2"),
+        url("../fonts/fonts/Inter28pt-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter Bold";
+    src: url("../fonts/fonts/Inter28pt-Bold.woff2") format("woff2"),
+        url("../fonts/fonts/Inter28pt-Bold.woff") format("woff");
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
