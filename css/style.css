@@ -527,3 +527,46 @@ section#products a.button {
     color: #fafafa;
     display: inline-block;
 }
+
+section#features {
+    margin-top: 94px;
+}
+section#features ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section#features ul li {
+    height: 161px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section#features ul li span {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(47, 46, 48, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+section#features ul li span img {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: #000;
+    padding: 8px;
+}
+section#features ul li h3 {
+    font-family: "Poppins SemiBold";
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+section#features ul li p {
+    font-family: "Poppins";
+    font-size: 14px;
+    line-height: 21px;
+}
