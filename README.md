@@ -1,7 +1,7 @@
 # 🏠 Exclusive - E-Commerce Home Page UI Clone
 
 This is a **responsive UI clone** of the **Home Page** of the "Exclusive" e-commerce website, inspired by a [Figma design](https://www.figma.com/design/R6WUxrKKVJskqJPmgphJpX/Exclusive?node-id=0-996&t=S8rYC3mW17M8IJH4-0).  
-Built using **HTML**, **CSS**, and **Vanilla JavaScript**, this project focuses purely on the visual design — no backend or frameworks involved.
+Built using **HTML** & **CSS** this project focuses purely on the visual design — no backend or frameworks involved.
 
 ---
 
@@ -17,7 +17,6 @@ Built using **HTML**, **CSS**, and **Vanilla JavaScript**, this project focuses 
 - 🛍️ Hero section with product call-to-action
 - 🧭 Header navigation and hover animations
 - 📰 Deal banners, product cards, and categories
-- 🔍 Basic interactive elements with JavaScript (e.g., sliders, nav toggles)
 
 ---
 
@@ -38,7 +37,6 @@ You can simply open index.html directly in your browser or use Live Server exten
 
 - HTML5
 - CSS3
-- Vanilla JavaScript
 - Figma (for design reference)
 
 ---
