@@ -788,7 +788,7 @@ footer div.copyright p {
         margin-right: 0;
     }
     section#offer section.wrapper {
-        padding-left: 48px;
+        padding: 0 12px;
         flex-direction: column;
     }
     section#offer div.product-info{
